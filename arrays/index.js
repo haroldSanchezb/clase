@@ -35,7 +35,7 @@ arrayHarold[0] = 'Holaaaa';
 // guardar arrays dentro de arrays
 arrayHarold = [];
 console.log(arrayHarold);
-arrayHarold[0] = [];
+arrayHarold.push([]);
 console.log(arrayHarold);
 arrayHarold[0].push('desayuno');
 arrayHarold[0].push('almuerzo');
@@ -43,7 +43,7 @@ arrayHarold[0].push('cena');
 console.log(arrayHarold);
 console.log(arrayHarold[0]);
 
-arrayHarold[1] = [];
+arrayHarold.push([]);
 console.log(arrayHarold);
 arrayHarold[1].push('desayuno ejecutivo');
 arrayHarold[1].push('almuerzo ejecutivo');
@@ -52,5 +52,3 @@ console.log(arrayHarold);
 console.log(arrayHarold[1]);
 console.log(arrayHarold[0][2]);
 console.log(arrayHarold[1][2]);
-
-
