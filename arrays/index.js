@@ -1,6 +1,9 @@
 // Arrays o Arreglos
 // guardar un valor en una posicion => posicion en la memoria de la maquina
-const miArray = [];
+// basicamente es tener muchas variables almacenadas en conjunto
+// que cada posicion se parece a una variable o se comporta como tal
+
+const miArray = []; // ya estamos declarando la variable como un array;
 const miArray2 = new Array(5);
 const numeros = [10, 15, 20];
 const especial = [3 + 2, 'maria' + 20, 20 - 5, () => ('hola')];
