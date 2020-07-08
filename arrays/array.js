@@ -50,9 +50,14 @@ const miArray4 = ['el que se va', 'los que quedan'];
 miArray4.shift();
 console.log(miArray4);
 
-// contador de 10
-// donde dentro van a llamar a esta variable llamada miRandom
-// esta variable tipo funcion arrow devuelve un numero del 0 al 20;
-// van a guardar en un array los numeros que sean mayores a 10 pero menores de 15
+// contador de 10 es un ciclo de 10 iteraciones
+// dentro del ciclo van a ejecutar la funcion que genera un numero random
+// donde dentro van a llamar a esta variable llamada miRandom, esta variable tipo funcion arrow devuelve un numero del 0 al 20;
+// van a guardar en un array los numeros que sean mayores a 10 pero menores que 15
 // luego de que termine el contador, fuera del ciclo van a imprimir el array
+
+// esta fuera del ciclo
 const miRandom = () => parseInt(Math.random() * 20);
+
+// esta dentro del ciclo
+const variable = miRandom(); // linea 2
