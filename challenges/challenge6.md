@@ -23,7 +23,7 @@ Exitos!
 
 ### 1 punto
 
-El servicio de transporte de tu ciudad quiere un sistema que le indique al pasajero cuanto le cuenta el pasaje en la hora que va a tomar el transporte, para eso pide:
+El servicio de transporte de tu ciudad quiere un sistema que le indique al pasajero cuanto le cuesta el pasaje en la hora que va a tomar el transporte, para eso pide:
 
 - La hora debe ser en formato militar (24 hrs).
 - Si la persona toma el bus de 7 a 9, le cuesta 1700 pesos.
@@ -88,7 +88,7 @@ Dado el siguiente array `[5, 7, 10, 12, 37, 22, 18]`
 
 - El software debe validar si es múltiplo de 5.
 - Si es múltiplo, debe multiplicaro por el mismo.
-- Si no es múltiplo, debe dividurlo por 2.
+- Si no es múltiplo, debe dividirlo por 2.
 - Al final imprimir el nuevo array.
 
 
