@@ -1,4 +1,5 @@
 # clase
-Clase JS
 
-[Challenges](challenges)
+Clases básicas de JS.
+
+Acá puede ver los [challenges](challenges)
