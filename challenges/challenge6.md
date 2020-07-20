@@ -95,7 +95,7 @@ Dado el siguiente array `[5, 7, 10, 12, 37, 22, 18]`
 
 ## Ejercicio 8 (con arrays y funciones)
 
-### 1 punto
+### 2 puntos
 
 - Crear una función que reciba dos parametros uno tipo string que sera el nombre y otro un booleano que dice si es señora o señor, debe retornar el nombre el concatenando el prefijo Señora o Señor.
 - Pedir al usuario cuantas personas desea ingresar.
@@ -103,7 +103,7 @@ Dado el siguiente array `[5, 7, 10, 12, 37, 22, 18]`
   - El nombre de la persona.
   - Si es Señora o Señor, para este caso van a usar `confirm("Eres una Señora?")` este aparece un promt con un aceptar o cancelar, depende de lo que presiona retorna un booleano.
 - Llamar  a la funcion que crearon en el primer paso y pasar los valores que ingreso la persona.
-- lo que retorne en la función, debe guardarse en un array.
+- Lo que retorne en la función, debe guardarse en un array.
 - Imprimir el array al final.
 
 
@@ -114,8 +114,8 @@ Dado el siguiente array `[5, 7, 10, 12, 37, 22, 18]`
 
 Un Colegio te pide que hagas un software que te devuelta las tablas de multiplicar (del 1 al 10), para eso:
 
+- Un array con todas las tablas de multiplicar.
 - Cada tabla debe estar en un array.
-- Un array que cada posicion sea la tabla del punto anterior.
 - Se debe recorrer el array principal y dentro recorrer cada tabla para que se imprima los valores.
 
 
