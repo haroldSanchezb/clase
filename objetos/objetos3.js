@@ -9,7 +9,7 @@ for (let index = 0; index < 3; index++) {
 const superObjeto = {
   nombre: 'Harold',// propiedades
   apellido: 'Sanchez',
-  hola: () => 'hola' + this.nombre, // las propiedades no pueden acceder al this
+  hola: () => 'hola', // las propiedades no pueden acceder al this
 
   misDatos() { // un metodo es una funcion declarativa sin el function dentro de un objeto, puede acceder al universo del objeto
     return `${this.nombre} ${this.apellido}`; // por medio del "this", que es una forma de acceder a las propiedades del objeto en un metodo
