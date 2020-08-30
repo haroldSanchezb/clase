@@ -6,3 +6,4 @@
 - [Tarea de objetos](tarea-objeto.md)
 - [Tarea de objetos 2](objetos2.md)
 - [Challenge de objetos](objetos3.md)
+- [Tarea de calculadora](calculadora.md)
