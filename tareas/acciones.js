@@ -7,7 +7,7 @@ const listado = tareas => {
       <div>
         <span>${tarea.id}</span>
         <span>${tarea.texto}</span>
-        <button data-id="${tarea.id}" class="eliminar">Eliminar</button>
+        <button data-id="${tarea.id}" class="eliminar item-${tarea.id}">Eliminar</button>
       </div>
     `;
   });
