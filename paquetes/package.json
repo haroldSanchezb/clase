@@ -1,0 +1,31 @@
+{
+  "name": "harold",
+  "version": "1.0.0",
+  "description": "Un Ejemplo de npm",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haroldSanchezb/clase.git"
+  },
+  "keywords": [
+    "node",
+    "modulos",
+    "clase"
+  ],
+  "author": "Harold Sanchez Balaguera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haroldSanchezb/clase/issues"
+  },
+  "homepage": "https://github.com/haroldSanchezb/clase#readme",
+  "dependencies": {
+    "is-odd": "^3.0.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
