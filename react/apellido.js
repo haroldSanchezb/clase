@@ -4,12 +4,17 @@
 // basicamente encapsula toda una funcion en un solo modulo
 import React from 'react'; // modulo de react
 
-const Hola = ({ nombre }) => { // todo componente de react debe comenzar con mayuscula inicial
-  return <span>Hola!!!!! {nombre} </span>; // jsx: al html que esta dentro de un componente react
+const Apellido = ({ apellido, edad }) => { // todo componente de react debe comenzar con mayuscula inicial
+  return (
+    <> {/* fragment simplificado */}
+      <span>{apellido} </span>
+      <span>{edad}</span>
+    </>
+  ); // jsx: al html que esta dentro de un componente react
   // las propiedades se imprimen solo con {}
 };
 
 // todo componentede react tiene un solo parametro que se llama props
 // props es un objeto por ende podemos destructurar
 
-export default Hola;
+export default Apellido;
