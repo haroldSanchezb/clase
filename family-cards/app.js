@@ -1,10 +1,14 @@
 import React from 'react';
+import Layout from './layout';
+import Card from './card';
 
 const App = () => {
   const data = {};
 
   return (
-    <Layout />
+    <Layout>
+      <Card />
+    </Layout>
   );
 }
 
