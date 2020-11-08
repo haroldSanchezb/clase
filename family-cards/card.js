@@ -1,37 +1,30 @@
 import React from 'react';
+import Image from './image';
 
-const Card = () => (
-  <div className="card">
+const Card = ({ foto, retrato, nombre, contacto, descripcion }) => (
+  <div className="column card familia">
     <div className="card-image">
-      <figure className="image is-4by3">
-        <img
-          src="https://bulma.io/images/placeholders/1280x960.png"
-          alt="Placeholder image"
-        />
-      </figure>
+      <Image
+        className={foto.className}
+        src={foto.src}
+        alt={foto.alt}
+      />
     </div>
     <div className="card-content">
       <div className="media">
         <div className="media-left">
-          <figure className="image is-48x48">
-            <img
-              src="https://bulma.io/images/placeholders/96x96.png"
-              alt="Placeholder image"
-            />
-          </figure>
+          <Image
+            className={retrato.className}
+            src={retrato.src}
+            alt={retrato.alt}
+          />
         </div>
         <div className="media-content">
-          <p className="title is-4">John Smith</p>
-          <p className="subtitle is-6">@johnsmith</p>
+          <p className="title is-4">{nombre}</p>
+          <p className="subtitle is-6">{contacto}</p>
         </div>
       </div>
-      <div className="content">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-        <a href="#">#css</a> <a href="#">#responsive</a>
-        <br />{/* cerrar un elemento unico es colocar slash antes del mayor que */}
-        <time dateTime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-      </div>{/* si el elemento tiene la etiqueta de apertura la de cierre el slash va despues del menor que */} 
+      <div className="content">{descripcion}</div>
     </div>
   </div>
 );
