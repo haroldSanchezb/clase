@@ -34,8 +34,11 @@ const App = () => {
       nombre: 'Giovanna Urrego',
       contacto: 'giovanna.urregob@gmail.com',
       descripcion: 'Amo a mi marido',
+      onClick: (valor) => alert(`Soy ${valor}`),
     }
   ];
+
+  const onClick = (valor) => alert(`Yo soy ${valor}`);
 
   return (
     <Layout>
@@ -47,6 +50,7 @@ const App = () => {
           nombre={data.nombre}
           contacto={data.contacto}
           descripcion={data.descripcion}
+          onClick={data.onClick || onClick}
       />
       ))}
     </Layout>
