@@ -8,12 +8,12 @@ const App = () => {
     {
       foto: {
         className: 'is-4by3',
-        src: images.foto,
+        src: 'https://instagram.fscl28-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/117536351_612093013047789_807089988470265665_n.jpg?_nc_ht=instagram.fscl28-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=LGa6RuhU06cAX-TR6I2&_nc_tp=15&oh=04da50a4458eb43e5a9d5a1b83c9f167&oe=5FD0389B',
         alt: 'lalala',
       },
       retrato: {
         className: 'is-48x48',
-        src: 'https://bulma.io/images/placeholders/96x96.png',
+        src: 'https://instagram.fscl28-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/117536351_612093013047789_807089988470265665_n.jpg?_nc_ht=instagram.fscl28-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=LGa6RuhU06cAX-TR6I2&_nc_tp=15&oh=04da50a4458eb43e5a9d5a1b83c9f167&oe=5FD0389B',
         alt: 'lalala2',
       },
       nombre: 'Harold Sanchez',
@@ -28,7 +28,7 @@ const App = () => {
       },
       retrato: {
         className: 'is-48x48',
-        src: 'https://bulma.io/images/placeholders/96x96.png',
+        src: images.foto,
         alt: 'lalala2',
       },
       nombre: 'Giovanna Urrego',

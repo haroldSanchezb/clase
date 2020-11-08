@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Image = ({ className, src, alt }) => (
-  <figure className={`image ${className}`}>
+  <figure className={`image foto ${className}`}>
     <img
       src={src}
       alt={alt}
