@@ -4,7 +4,7 @@ import Image from './image';
 const Card = ({ foto, retrato, nombre, contacto, descripcion, onClick }) => {
   const onClickImage = () => {
     if (onClick) {
-      onClick(nombre);
+      onClick(foto.alt);
     }
   };
 
