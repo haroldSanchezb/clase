@@ -15,6 +15,7 @@
   "author": "Harold Sanchez Balaguera",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "bulma": "^0.9.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
