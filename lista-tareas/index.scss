@@ -8,3 +8,15 @@ $fa-font-path: "./node_modules/@fortawesome/fontawesome-free/webfonts";
 .nueva-tarea {
   width: 100%;
 }
+
+.tarea {
+  justify-content: space-between;
+
+  &__completado {
+    flex-grow: 0;
+  }
+
+  &__texto {
+    flex-grow: 2;
+  }
+}
