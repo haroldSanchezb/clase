@@ -56,7 +56,7 @@ document.querySelector('.boton').addEventListener('click', event => {
   const resultado = botonClick();
   const elemento = document.querySelector('.resultado');
 
-  if(resultado !== '') {  
+  if(resultado !== '') {
     elemento.classList.remove('oculto');
     elemento.innerHTML = resultado; // nos permite insertar contenido dentro de un elemento, en este caso el div
     elemento.scrollIntoView({
